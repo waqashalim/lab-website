@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI4Edu Lab explores thoughtful, human-centered uses of artificial intelligence in education.">
+  <meta name="theme-color" content="#f7f8f6">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <title>AI4Edu Lab — AI for better learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/style.css">
+  <script type="module" src="./src/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="AI4Edu Lab home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="16" r="4" fill="currentColor"/><path d="M16 3v9M29 16h-9M16 29v-9M3 16h9" stroke="currentColor" stroke-width="2"/></svg>
+        <span>AI4Edu<span class="brand-light"> / Lab</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span>Menu</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#people">People</a>
+        <a href="#publications">Publications</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="label"><span class="status-dot"></span> Human-centered AI in education</p>
+        <h1 id="hero-title">Better learning.<br><span>Thoughtful AI.</span></h1>
+        <p class="hero-intro">AI4Edu Lab explores how artificial intelligence can help people teach, learn, and create—while keeping human judgment at the center.</p>
+        <a class="text-link" href="#research">Explore our research <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="learning-orbit" aria-hidden="true">
+        <div class="orbit-scene" id="orbit-scene">
+          <svg viewBox="0 0 520 520" role="presentation">
+            <defs><filter id="soft"><feGaussianBlur stdDeviation="18"/></filter></defs>
+            <circle cx="260" cy="260" r="195" class="orbit orbit-outer"/>
+            <circle cx="260" cy="260" r="132" class="orbit orbit-inner"/>
+            <ellipse cx="260" cy="260" rx="215" ry="86" class="orbit orbit-tilt" transform="rotate(-28 260 260)"/>
+            <circle cx="260" cy="260" r="82" class="core-glow" filter="url(#soft)"/>
+            <circle cx="260" cy="260" r="68" class="core"/>
+            <text x="260" y="254" class="core-title" text-anchor="middle">AI × EDU</text>
+            <text x="260" y="278" class="core-sub" text-anchor="middle">LEARNING LOOP</text>
+            <g class="node node-one"><circle cx="112" cy="139" r="10"/><text x="82" y="116">ASK</text></g>
+            <g class="node node-two"><circle cx="410" cy="174" r="10"/><text x="386" y="150">ADAPT</text></g>
+            <g class="node node-three"><circle cx="374" cy="421" r="10"/><text x="344" y="453">CREATE</text></g>
+            <g class="node node-four"><circle cx="98" cy="363" r="10"/><text x="62" y="394">REFLECT</text></g>
+            <path class="signal" d="M118 146C205 170 192 218 226 237M402 180C346 194 334 222 296 242M366 414C339 350 310 336 284 300M106 355C166 333 195 309 226 282"/>
+          </svg>
+        </div>
+      </div>
+      <p class="hero-note">Research · Prototypes · Open collaboration</p>
+    </section>
+
+    <section class="statement shell" aria-label="Lab mission">
+      <p class="section-index">01 / Our purpose</p>
+      <p class="statement-text">We believe the future of learning should be <em>more personal, more accessible, and more human</em>—not simply more automated.</p>
+    </section>
+
+    <section class="research-band" id="research" aria-labelledby="research-title">
+      <div class="shell section-grid">
+        <div class="section-heading">
+          <p class="section-index">02 / Research</p>
+          <h2 id="research-title">Questions worth exploring.</h2>
+          <p>Our work connects learning science, responsible AI, and real classroom needs.</p>
+        </div>
+        <div class="research-list">
+          <details class="research-item" open>
+            <summary><span>Personalized learning</span><span class="plus" aria-hidden="true"></span></summary>
+            <p>How can AI adapt explanations, practice, and feedback to different learners without narrowing their curiosity or agency?</p>
+          </details>
+          <details class="research-item">
+            <summary><span>Teacher augmentation</span><span class="plus" aria-hidden="true"></span></summary>
+            <p>How can intelligent tools reduce repetitive work and surface useful insights while preserving teachers’ expertise and control?</p>
+          </details>
+          <details class="research-item">
+            <summary><span>Responsible learning systems</span><span class="plus" aria-hidden="true"></span></summary>
+            <p>How do we evaluate educational AI for accuracy, fairness, transparency, privacy, and meaningful learning outcomes?</p>
+          </details>
+          <details class="research-item">
+            <summary><span>Learning analytics</span><span class="plus" aria-hidden="true"></span></summary>
+            <p>How can evidence about the learning process become understandable and actionable for students and educators?</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects shell" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading horizontal-heading">
+        <div><p class="section-index">03 / Projects</p><h2 id="projects-title">Ideas into practice.</h2></div>
+        <p>From early experiments to classroom-ready tools, our projects turn research questions into things people can use and evaluate.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project project-large">
+          <div class="project-visual visual-tutor" aria-hidden="true"><span class="bubble b1">Why?</span><span class="bubble b2">Let’s reason it through.</span><span class="bubble b3">Try another way →</span><div class="visual-caption">DIALOGUE / FEEDBACK / DISCOVERY</div></div>
+          <div class="project-meta"><p>Learning interaction</p><h3>Adaptive learning companions</h3><p>Exploring conversational support that prompts reflection rather than simply providing answers.</p></div>
+        </article>
+        <article class="project">
+          <div class="project-visual visual-insight" aria-hidden="true"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="visual-caption">EVIDENCE → INSIGHT</div></div>
+          <div class="project-meta"><p>Educator tools</p><h3>Meaningful learning insights</h3><p>Making patterns in learning visible, interpretable, and useful.</p></div>
+        </article>
+        <article class="project">
+          <div class="project-visual visual-access" aria-hidden="true"><span class="big-a">Aa</span><div class="access-lines"><i></i><i></i><i></i></div><div class="visual-caption">ACCESS FOR EVERY LEARNER</div></div>
+          <div class="project-meta"><p>Inclusive education</p><h3>Accessible learning experiences</h3><p>Designing flexible resources for diverse needs, languages, and contexts.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="people shell" id="people" aria-labelledby="people-title">
+      <div class="section-grid">
+        <div class="section-heading"><p class="section-index">04 / People</p><h2 id="people-title">A lab built around collaboration.</h2></div>
+        <div class="people-content">
+          <p>We bring together perspectives from education, computer science, design, and the learning sciences. Our best work happens across disciplines.</p>
+          <dl class="people-list">
+            <div><dt>Lab leadership</dt><dd>Research direction · Partnerships · Mentorship</dd></div>
+            <div><dt>Researchers & students</dt><dd>Experiments · Engineering · Evaluation</dd></div>
+            <div><dt>Collaborators</dt><dd>Educators · Institutions · Community partners</dd></div>
+          </dl>
+          <a class="text-link" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="publications shell" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading horizontal-heading">
+        <div><p class="section-index">05 / Publications</p><h2 id="publications-title">Share what we learn.</h2></div>
+        <p>A future home for papers, datasets, software, and open educational resources from the lab.</p>
+      </div>
+      <div class="publication-empty">
+        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 6h20l8 8v28H10z"/><path d="M30 6v10h8M17 24h14M17 31h14"/></svg>
+        <div><h3>Our publication list is taking shape.</h3><p>Add your lab’s publications and resources here as they become available.</p></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner">
+        <p class="section-index">06 / Contact</p>
+        <h2 id="contact-title">Let’s make learning<br>better, together.</h2>
+        <p>For research collaborations, student opportunities, or a simple hello, send us a note.</p>
+        <!-- Replace this placeholder with one of your real lab email addresses. -->
+        <a class="email-link" href="mailto:hello@yourdomain.com">hello@yourdomain.com <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><a class="brand footer-brand" href="#top">AI4Edu / Lab</a><p>Artificial intelligence for education.</p><p>© <span id="year"></span> AI4Edu Lab</p></div>
+  </footer>
+</body>
+</html>
